@@ -1,6 +1,6 @@
 {
   "name": "awesomemodal",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Vanilla Javascript plugin for creating modals.",
   "main": "AwesomeModal.js",
   "scripts": {
