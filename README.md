@@ -1,6 +1,7 @@
 # AwesomeModal
 
 A vanilla, lightweight JavaScript plugin for creating custom modals.
+Live Demo [click](http://tsymbal01.beget.tech/awesomeModal/).
 
 ## Installation
 
@@ -12,8 +13,11 @@ yarn add awesomemodal
 ```
 
 ## Usage
+```
+// Css
+<link href="css/AwesomeModal.css" rel="stylesheet" type="text/css">
 
-```python
+// JavaScript
 import AwesomeModal
 
 const myCustomModal = new AwesomeModal('.awesomeModal', {options})
