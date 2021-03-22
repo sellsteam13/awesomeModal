@@ -1,6 +1,7 @@
 # AwesomeModal
 
 A vanilla, lightweight JavaScript plugin for creating custom modals.
+Live Demo [click](http://tsymbal01.beget.tech/awesomeModal/).
 
 ## Installation
 
