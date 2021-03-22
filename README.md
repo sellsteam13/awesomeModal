@@ -13,8 +13,11 @@ yarn add awesomemodal
 ```
 
 ## Usage
+```
+CSS
+<link href="css/AwesomeModal.css" rel="stylesheet" type="text/css">
 
-```python
+JS
 import AwesomeModal
 
 const myCustomModal = new AwesomeModal('.awesomeModal', {options})
