@@ -1,6 +1,6 @@
 # AwesomeModal
 
-AwesomeModalis a vanilla, lightweight JavaScript plugin for creating custom modals.
+AwesomeModals a vanilla, lightweight JavaScript plugin for creating custom modals.
 
 ## Installation
 
