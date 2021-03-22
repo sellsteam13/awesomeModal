@@ -15,7 +15,6 @@ yarn add awesomemodal
 ## Usage
 ```
 // Css
-
 <link href="css/AwesomeModal.css" rel="stylesheet" type="text/css">
 
 // JavaScript
