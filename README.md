@@ -24,7 +24,7 @@ const myCustomModal = new AwesomeModal('.awesomeModal', {options})
 @string (default: empty) - { overlayClass: '.anyClass' } - adding new custom classes for overlay,
 @string (default: 'rgba(0,0,0,.1)') - { overlayBackground: (color, image or gradient) } - changing overlay background,
 @boolean (default: false) - { overlayCloseAbleDisabled: true/false } - defines whether the modal will be closed when the overlay is clicked,
-@boolean(default: false) - { modalAnimateDisabled: true/false } - defines whether the modal will animate
+@boolean (default: false) - { modalAnimateDisabled: true/false } - defines whether the modal will animate
  ```
 ### Methods
 ```
