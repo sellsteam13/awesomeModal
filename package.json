@@ -1,0 +1,28 @@
+{
+  "name": "awesomemodal",
+  "version": "1.0.1",
+  "description": "Vanilla Javascript plugin for creating modals.",
+  "main": "AwesomeModal.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sellsteam13/awesomeModal.git"
+  },
+  "keywords": [
+    "modal",
+    "js",
+    "html",
+    "scss",
+    "vanilla",
+    "js",
+    "lightweight"
+  ],
+  "author": "Yuri Tsimbal @sellsteam13",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sellsteam13/awesomeModal/issues"
+  },
+  "homepage": "https://github.com/sellsteam13/awesomeModal#readme"
+}
