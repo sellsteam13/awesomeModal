@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Modal Demo</title>
+    <link rel="stylesheet" href="./css/AwesomeModal.css">
+</head>
+<style>
+    .awesomeModal,
+    .awesomeModal2 {
+        background-color: white;
+        padding: 40px;
+        text-align: center;
+        max-width: 260px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+</style>
+
+<body style="min-height: 100vh; margin: 0; padding: 0 0 0 30px;">
+    <h1>AwesomeModal 1</h1>
+    <button onclick="window.myModal.open()">
+        Open modal 1
+    </button>
+    <hr>
+    <h1>AwesomeModal 2</h1>
+    <button onclick="window.myModal2.open()">
+        Open modal 2
+    </button>
+    <hr>
+    <!-- modals -->
+    <div class="awesomeModal">
+        <h2>This is awesome Modal 1</h2>
+        <p>Pure vanilla JavaScript plugin!</p>
+        <button onclick="window.myModal2.open()" style="margin-bottom: 15px;">Open modal 2</button>
+        <button onclick="window.myModal.close()">Close</button>
+    </div>
+    <div class="awesomeModal2">
+        <h2>This is awesome Modal 2</h2>
+        <p>Pure vanilla JavaScript plugin!</p>
+        <button onclick="window.myModal2.close()">Close</button>
+    </div>
+    <script type="module">
+        import AwesomeModal from './AwesomeModal.js';document.addEventListener('DOMContentLoaded', () => { window.myModal = new AwesomeModal('.awesomeModal'); window.myModal2 = new AwesomeModal('.awesomeModal2'); });
+    </script>
+</body>
+
+</html>

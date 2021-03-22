@@ -1,0 +1,41 @@
+/*!
+ * AwesomeModal 1.0.0
+ */
+
+.awesomeModal__overlay {
+    display: none;
+    align-items: flex-start;
+    justify-content: center;
+    overflow: hidden auto;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    padding: 3rem 1.5rem;
+    position: fixed;
+    z-index: 9999;
+    opacity: 0;
+    transition: opacity .2s ease-in-out;
+    &.is-opened {
+        opacity: 1;
+        transition: opacity .2s ease-in-out;
+    }
+    &.is-animating {
+        >* {
+            animation: animateModal .2s ease-in-out;
+            animation-fill-mode: forwards;
+        }
+    }
+}
+
+// animateion for modal
+@keyframes animateModal {
+    from {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
