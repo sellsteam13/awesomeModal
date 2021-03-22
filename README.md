@@ -7,7 +7,7 @@ A vanilla, lightweight JavaScript plugin for creating custom modals.
 Use the package manager [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/) to install AwesomeModal.
 
 ```bash
-npm i awesomemodal
+npm install awesomemodal
 yarn add awesomemodal
 ```
 
