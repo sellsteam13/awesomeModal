@@ -14,10 +14,10 @@ yarn add awesomemodal
 
 ## Usage
 ```
-CSS
+//CSS
 <link href="css/AwesomeModal.css" rel="stylesheet" type="text/css">
 
-JS
+//JS
 import AwesomeModal
 
 const myCustomModal = new AwesomeModal('.awesomeModal', {options})
