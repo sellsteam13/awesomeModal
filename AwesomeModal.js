@@ -86,8 +86,8 @@ export default class AwesomeModal {
     // Disable page scroll
     scrollDisable() {
         let $body = document.body;
-        window.tmpScrollPos = -1 * window.scrollPosition;
         window.scrollPosition = window.pageYOffset;
+        window.tmpScrollPos = -1 * window.scrollPosition;
         $body.style.overflow = 'hidden';
         $body.style.position = 'fixed';
         $body.style.top = window.tmpScrollPos + 'px';
