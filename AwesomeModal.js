@@ -101,7 +101,7 @@ export default class AwesomeModal {
         $body.style.removeProperty('top');
         $body.style.removeProperty('width');
         window.scrollTo({
-            top: -1 * tmpScrollPos,
+            top: -1 * window.tmpScrollPos,
             behavior: "instant"
         });
     }
