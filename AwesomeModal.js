@@ -86,10 +86,11 @@ export default class AwesomeModal {
     // Disable page scroll
     scrollDisable() {
         let $body = document.body;
+        window.tmpScrollPos = -1 * window.scrollPosition;
         window.scrollPosition = window.pageYOffset;
         $body.style.overflow = 'hidden';
         $body.style.position = 'fixed';
-        $body.style.top = `0`;
+        $body.style.top = window.tmpScrollPos + 'px';
         $body.style.width = '100%';
     };
     // Enable page scroll
@@ -100,7 +101,7 @@ export default class AwesomeModal {
         $body.style.removeProperty('top');
         $body.style.removeProperty('width');
         window.scrollTo({
-            top: 0,
+            top: -1 * tmpScrollPos,
             behavior: "instant"
         });
     }
